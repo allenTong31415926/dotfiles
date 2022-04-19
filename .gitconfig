@@ -1,0 +1,6 @@
+[user]
+	name = allenTong31415926
+[alias]
+  a	  = add
+	c	  = commit
+	st	= status
