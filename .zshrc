@@ -99,3 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="$PATH:/opt/homebrew/bin/"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
