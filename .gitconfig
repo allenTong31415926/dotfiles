@@ -3,4 +3,6 @@
 [alias]
   a	  = add
 	c	  = commit
+  co  = checkout
 	st	= status
+  ls  = log --graph --pretty=format:'%C(yellow)%h%Creset%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset %C(white)<%an>%Creset'
