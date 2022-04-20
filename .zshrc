@@ -103,3 +103,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:/opt/homebrew/bin/"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+alias pg-start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pg-stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias be='bundle exec'
