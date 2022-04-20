@@ -1,8 +1,26 @@
 [user]
 	name = allenTong31415926
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  ui = auto
+
 [alias]
   a	  = add
 	c	  = commit
   co  = checkout
 	st	= status
   ls  = log --graph --pretty=format:'%C(yellow)%h%Creset%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset %C(white)<%an>%Creset'
+  lsa  = log --graph --pretty=format:'%C(yellow)%h%Creset%C(cyan)%d%Creset %s %Cgreen(%cr)%Creset %C(white)<%an>%Creset' --all
+
+[push]
+  default = simple
+
+[pull]
+  rebase = true
+
+[merge]
+  algorithm = patience
+  ff-only = true
