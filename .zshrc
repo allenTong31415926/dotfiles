@@ -1,3 +1,8 @@
+# To fix ERR_OSSL_EVP_UNSUPPORTED error in Node.js 17 and post
+# whenyour application or a module you’re using is attempting to use an algorithm or key size
+# which is no longer allowed by default with OpenSSL 3.0
+export NODE_OPTIONS=--openssl-legacy-provider
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -101,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$PATH:/opt/homebrew/bin/"
+export PATH="$PATH:$(yarn global bin)"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
