@@ -3,6 +3,9 @@
 # which is no longer allowed by default with OpenSSL 3.0
 export NODE_OPTIONS=--openssl-legacy-provider
 
+# Add environment var for the SDK
+export ANDROID_SDK_ROOT="/opt/homebrew/share/android-commandlinetools"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
